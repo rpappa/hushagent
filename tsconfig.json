@@ -1,0 +1,18 @@
+{
+    "extends": "@sindresorhus/tsconfig",
+    "compilerOptions": {
+        "target": "ES2021",
+        "composite": true,
+        "noUnusedLocals": false,
+        "declarationMap": true,
+        "outDir": "dist",
+        "paths": {
+            "@rpappa/*": [
+                "../*/src"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ]
+}

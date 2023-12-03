@@ -1,0 +1,8 @@
+// This really just exists for vscode's sake, vitest doesn't seem to care
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": ".."
+    },
+    "include": [".", "../src"]
+}
